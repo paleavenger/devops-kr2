@@ -22,7 +22,7 @@ services:
       REDIS_HOST: redis
       STUDENT: Zakharov
     ports:
-      - "127.0.0.1:<порт>:<порт>"
+      - "127.0.0.1:8004:8004"
     depends_on:
       redis:
         condition: service_healthy
